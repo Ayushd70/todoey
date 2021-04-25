@@ -19,8 +19,12 @@ class TasksScreen extends StatelessWidget {
                 ),
               ),
               clipBehavior: Clip.antiAliasWithSaveLayer,
+              isScrollControlled: true,
               context: context,
-              builder: (context) => AddTaskScreen());
+              builder: (context) => SingleChildScrollView(
+                  child: AddTaskScreen(),
+              ),
+          );
         },
       ),
       body: Column(
