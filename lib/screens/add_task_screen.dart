@@ -9,12 +9,14 @@ class AddTaskScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text('Add Task',
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 30.0,
-            color: Colors.lightBlueAccent,
-          ),),
+          Text(
+            'Add Task',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 30.0,
+              color: Colors.lightBlueAccent,
+            ),
+          ),
           TextField(
             autofocus: true,
             textAlign: TextAlign.center,
@@ -26,7 +28,7 @@ class AddTaskScreen extends StatelessWidget {
             ),
             child: Text('Add'),
             onPressed: () {
-            //add task
+              //add task
             },
           ),
         ],
