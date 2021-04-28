@@ -11,9 +11,7 @@ class TasksScreen extends StatefulWidget {
 
 class _TasksScreenState extends State<TasksScreen> {
   List<Task> tasks = [
-    Task(name: 'Buy milk'),
-    Task(name: 'Buy coco'),
-    Task(name: 'buy bread'),
+    Task(name: 'Use the + button to add task'),
   ];
 
   @override
@@ -76,7 +74,7 @@ class _TasksScreenState extends State<TasksScreen> {
                 ),
                 //todo: fix this hardcoded value
                 Text(
-                  '12 Tasks',
+                  '${tasks.length} Tasks',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18.0,
