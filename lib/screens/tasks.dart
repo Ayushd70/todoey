@@ -35,7 +35,11 @@ class _TasksScreenState extends State<TasksScreen> {
               isScrollControlled: true,
               context: context,
               builder: (context) => SingleChildScrollView(
-                  child: AddTaskScreen(),
+                  child: AddTaskScreen((newTaskTile) {
+                    setState(() {
+                      tasks.add(Task(name: newTaskTile));
+                    });
+                  }),
               ),
           );
         },
