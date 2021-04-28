@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AddTaskScreen extends StatelessWidget {
+  static String newTaskTitle;
   final Function addTaskCallback;
 
   AddTaskScreen(this.addTaskCallback);
