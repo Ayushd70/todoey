@@ -72,7 +72,6 @@ class _TasksScreenState extends State<TasksScreen> {
                     fontWeight: FontWeight.w700,
                   ),
                 ),
-                //todo: fix this hardcoded value
                 Text(
                   '${tasks.length} Tasks',
                   style: TextStyle(
