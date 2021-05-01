@@ -7,4 +7,7 @@ class TaskData extends ChangeNotifier {
     Task(name: 'Use the + button to add task'),
   ];
 
+  int get taskCount {
+    return tasks.length;
+  }
 }
