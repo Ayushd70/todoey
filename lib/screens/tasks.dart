@@ -24,12 +24,7 @@ class TasksScreen extends StatelessWidget {
               isScrollControlled: true,
               context: context,
               builder: (context) => SingleChildScrollView(
-                  child: AddTaskScreen((newTaskTile) {
-                    // setState(() {
-                    //   tasks.add(Task(name: newTaskTile));
-                    // });
-                    Navigator.pop(context);
-                  }),
+                  child: AddTaskScreen(),
               ),
           );
         },
