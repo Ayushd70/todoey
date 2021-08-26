@@ -2,6 +2,15 @@
 
 A cross platform todo app written in dart using flutter. Add and mark off todo list once done.
 
+## Screenshots
+
+<p align="center">
+  <img width="32%" src="screenshots/ss.jpg?raw=true">
+  <img width="32%" src="screenshots/ss1.jpg?raw=true">
+  <img width="32%" src="screenshots/ss2.jpg?raw=true">
+</p>
+
+
 ## Plugins
 
 **Table of contents:**
